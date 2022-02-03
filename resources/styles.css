@@ -1,0 +1,38 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+header {
+    display: flex;
+    height: 69px;
+    border-bottom: 1px seashell solid;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav li{
+    display: inline;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+.mission{
+    background-image: url(./pictures/img-mission-background.webp);
+    max-width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+.mission .headings{
+    width: 100%;
+    background-color: black;
+
+}
+#logo {
+    height: 50px;
+    margin-left: 10px;
+}
